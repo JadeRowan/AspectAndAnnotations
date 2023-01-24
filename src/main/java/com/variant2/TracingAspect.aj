@@ -1,7 +1,7 @@
-package com;
+package com.variant2;
 
 public aspect TracingAspect {
-        pointcut methodExecuted() : execution(* *(..)) && @annotation(com.MyTracingAnnotation);
+        pointcut methodExecuted() : execution(* *(..)) && @annotation(com.variant2.MyTracingAnnotation);
 
   Object around(): methodExecuted() {
           System.out.println("Starting span by TracingAspect");

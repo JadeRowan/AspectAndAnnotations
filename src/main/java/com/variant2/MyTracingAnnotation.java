@@ -1,4 +1,4 @@
-package com;
+package com.variant2;
 
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;

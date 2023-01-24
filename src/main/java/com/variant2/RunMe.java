@@ -1,4 +1,4 @@
-package com;
+package com.variant2;
 
 public class RunMe {
   public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class RunMe {
   }
 
   @MyTracingAnnotation
-  private static void someMethod(String s) {
+  public static void someMethod(String s) {
     System.out.println(s);
   }
 }
